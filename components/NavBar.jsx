@@ -1,10 +1,13 @@
+import style from '../styles/Navbar.module.css'
+import Link from 'next/link'
+
 export default function NavBar(params) {
     return(
         <>
-            <ul>
-                <li>sfdadasd</li>
-                <li>sfdadasd</li>
-                <li>sfdadasd</li>
+            <ul className={style.navbar}>
+                <li><Link href={'/subrota'}>Subrota</Link></li>
+                <li><Link href={'/'}>Home </Link></li>
+                <li><Link href={'/about'}>About </Link></li>
             </ul>
         
         </>
