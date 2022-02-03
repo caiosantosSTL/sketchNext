@@ -1,10 +1,14 @@
 import NavBar from "./NavBar";
 
-export default function MainComp({children}) {
-    return(
+export default function MainComp({ children }) {
+    return (
         <>
-            <NavBar/>
-            <div>{children}</div>
+            <NavBar />
+            <div className="container">
+
+                <div>{children}</div>
+            </div>
+
         </>
     )
 }

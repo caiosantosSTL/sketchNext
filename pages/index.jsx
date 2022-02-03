@@ -12,14 +12,13 @@ import About from './about'
 export default function Home() {
   return (
 
-    <div className="container">
+    <div>
       <h1>osioaiod</h1>
       <ul>
         <li>
           <Link href={'/subrota'}> go to subrota </Link>
         </li>
       </ul>
-      <About/>
     </div>
   )
 }

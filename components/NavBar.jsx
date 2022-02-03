@@ -8,6 +8,7 @@ export default function NavBar(params) {
                 <li><Link href={'/subrota'}>Subrota</Link></li>
                 <li><Link href={'/'}>Home </Link></li>
                 <li><Link href={'/about'}>About </Link></li>
+                <li><Link href={'/todos'}>API todo </Link></li>
             </ul>
         
         </>
