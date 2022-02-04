@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 
-export default function Comment(params) {
+export default function Comments(params) {
     const router = useRouter()
     const showTodoId = router.query.todoid
     const showCommentId = router.query.commentid

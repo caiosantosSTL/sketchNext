@@ -35,6 +35,7 @@ export default function Todo({todo}) {
             <Link href="/todo">Home</Link>
             <h1>Show todo : {todo.id}</h1>
             <p>Coments <Link href={`${todo.id}/comments/1`}>here</Link></p>
+            <h3>{todo.title}</h3>
         </>
     )
 }
